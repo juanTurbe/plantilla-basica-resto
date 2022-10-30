@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --main-color: rgb(15, 15, 15);
+    --text-color: #f0f0f0;
+  }
+  
+a, p, li {
+    color: var(--text-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+header .menu a:hover {
+    text-decoration: underline;
+}
+
+header {
+    background: var(--main-color);
+    padding: 36px 16px;  
+    -webkit-box-shadow: 0px 3px 3px 0px rgba(8,8,8,0.66);
+    -moz-box-shadow: 0px 3px 3px 0px rgba(8,8,8,0.66);
+    box-shadow: 0px 3px 3px 0px rgba(8,8,8,0.66);
+}
+
+.menu ul {
+    list-style: none;
+}
+
+main #intro {
+    background: url(../img/vintage-old-rustic-cutlery-on-dark-60opacity.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 510px;
+    z-index: 0;
+}
+
+#intro .logo-intro {
+    width: 20%;
+    margin: auto;
+}
+
+#intro .logo-intro img {
+    width: 100%;
+}
+
